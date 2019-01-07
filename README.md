@@ -14,7 +14,7 @@ Furthermore, you can provide your own farvorite text as a string arrays of singl
 
 Your favorit Lorem can also be triggered by Ctrl+L.
 
-[![Animation](assets/lorem-whatever.gif)]
+(assets/lorem-whatever.gif)
 
 ## Extension Settings
 
