@@ -26,7 +26,7 @@ You can customize in Settings:
 
 ## Contribute
 
-If you have some whiches of additional text that could be added as custom examples, please feel free to suggest. Especially the Buzzword base-text could use some more creative real-life examples.
+Please feel free to suggest additional text that could be added as custom examples. Especially the Buzzword base-text could use some more creative real-life examples.
 
 
 ## Credits
