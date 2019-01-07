@@ -1,3 +1,5 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/jobe451/vscode-lorem-whatever/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jobe451/vscode-lorem-whatever?targetFile=package.json)
+
 # lorem-whatever README
 
 This is the README for your extension "lorem-whatever". After writing up a brief description, we recommend including the following sections.
