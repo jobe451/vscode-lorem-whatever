@@ -1,3 +1,4 @@
+https://david-dm.org/jobe451/vscode-lorem-whatever.svg
 [![Known Vulnerabilities](https://snyk.io/test/github/jobe451/vscode-lorem-whatever/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jobe451/vscode-lorem-whatever?targetFile=package.json)
 
 # lorem-whatever README
