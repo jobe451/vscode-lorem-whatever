@@ -1,68 +1,24 @@
-https://david-dm.org/jobe451/vscode-lorem-whatever.svg
 [![Known Vulnerabilities](https://snyk.io/test/github/jobe451/vscode-lorem-whatever/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jobe451/vscode-lorem-whatever?targetFile=package.json)
 
 # lorem-whatever README
 
-This is the README for your extension "lorem-whatever". After writing up a brief description, we recommend including the following sections.
+Lorem Whatever is a random filler text generator, that has build in the following styles:
+* Lorem Gibson (immitates William Gibson texts)
+* Lorem Buzzword (immitates text filled with tech and marketing Buzzwords)
+* Lorem Constituation (immitates american constitution text)
+* Lorem Genesis (immitates Gensis passages)
+* Lorem Basel 3 (immitates german financial regulation text)
+* Lorem Faust (immitates german writings of Goethes Faust)
 
-## Features
+Furthermore, you can provide your own farvorite text as a string arrays of single sentences to add up to 5 more custom text. There is an example included which contains the first two chapters of Alice in Wonderland.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Your favorit Lorem can also be triggered by Ctrl+L.
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+[![Animation](assets/lorem-whatever.gif)]
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+You can customize in Settings:
+* minimum Number of words, a lorem text should consist of.
+* Your favorit Lorem (for beeing accessible via Ctrl+L)
+* Edit the 1-5 Custom arrays for your own base-text extracts to generate Lorems from.

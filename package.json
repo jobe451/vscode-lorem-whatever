@@ -1,7 +1,7 @@
 {
 	"name": "lorem-whatever",
 	"displayName": "Lorem Whatever",
-	"description": "A Lorem generator, doing William Gibson or Goethe or Buzzwords style none-sense filler text.",
+	"description": "A Lorem generator, doing William Gibson or Goethe or Buzzwords style none-sense filler text. You can also add your own custom text fragments, based on which randomized none-sense text can be generated.",
 	"version": "0.0.1",
 	"publisher": "Daniel Keller",
 	"engines": {
