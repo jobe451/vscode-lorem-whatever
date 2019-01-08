@@ -29,6 +29,11 @@ You can customize in Settings:
 Please feel free to suggest additional text that could be added as custom examples. Especially the Buzzword base-text could use some more creative real-life examples.
 
 
+## Preconditions
+
+You need to have Visual Studio Code 1.25 or higher for this extension to work.
+
+
 ## Credits
 
 * Lorem Whatever uses the ["markov-strings"](https://www.npmjs.com/package/markov-strings) module by Simon Cambier to generate random nonesense-filler-text based on some text examples. 

@@ -6,11 +6,20 @@
 	"publisher": "jobe451",
 	"repository": "https://github.com/jobe451/vscode-lorem-whatever",
 	"engines": {
-		"vscode": "^1.30.0"
+		"vscode": "^1.25.0"
 	},
-	"categories": [
-		"Other"
-	],
+    "categories": [
+        "Snippets",
+        "Other"
+    ],
+    "keywords": [
+        "HTML",
+        "Snippets",
+        "Web",
+        "lorem",
+        "ipsum",
+        "lorem ipsum"
+	],	
 	"activationEvents": [
 		"onCommand:loremWhatever.loremGibson",
 		"onCommand:loremWhatever.loremBuzzword",
