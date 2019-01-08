@@ -14,7 +14,7 @@ Furthermore, you can provide your own farvorite text as arrays of single sentenc
 
 Your favorit Lorem can also be triggered by Ctrl+L.
 
-![Lorem Whatever animation](assets/lorem-whatever.gif)
+![Lorem Whatever animation](https://raw.githubusercontent.com/jobe451/vscode-lorem-whatever/master/assets/lorem-whatever.gif)
 
 ## Extension Settings
 
