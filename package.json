@@ -2,24 +2,24 @@
 	"name": "lorem-whatever",
 	"displayName": "Lorem Whatever",
 	"description": "A Lorem generator, doing William Gibson or Goethe or Buzzwords style none-sense filler text. You can also add your own custom text fragments, based on which randomized none-sense text can be generated.",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"publisher": "jobe451",
 	"repository": "https://github.com/jobe451/vscode-lorem-whatever",
 	"engines": {
 		"vscode": "^1.25.0"
 	},
-    "categories": [
-        "Snippets",
-        "Other"
-    ],
-    "keywords": [
-        "HTML",
-        "Snippets",
-        "Web",
-        "lorem",
-        "ipsum",
-        "lorem ipsum"
-	],	
+	"categories": [
+		"Snippets",
+		"Other"
+	],
+	"keywords": [
+		"HTML",
+		"Snippets",
+		"Web",
+		"lorem",
+		"ipsum",
+		"lorem ipsum"
+	],
 	"activationEvents": [
 		"onCommand:loremWhatever.loremGibson",
 		"onCommand:loremWhatever.loremBuzzword",
