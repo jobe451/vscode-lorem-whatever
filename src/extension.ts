@@ -91,7 +91,7 @@ function runGenerator(mapType: PredefinedGenerators|string): void {
 				generator = new LoremWhateverGenerator(configCustomArray);
 			}
 			else {
-				vscode.window.showInformationMessage("lorem type " + mapType + " is either undefined or empty");
+				vscode.window.showInformationMessage("lorem type " + mapType + " is either undefined or empty. Please check the settings.");
 				return;
 			}
 		}
