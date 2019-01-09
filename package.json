@@ -2,7 +2,7 @@
 	"name": "lorem-whatever",
 	"displayName": "Lorem Whatever",
 	"description": "A Lorem generator, doing William Gibson or Goethe or Buzzwords style none-sense filler text. You can also add your own custom text fragments, based on which randomized none-sense text can be generated.",
-	"version": "0.3.0",
+	"version": "1.0.0",
 	"publisher": "jobe451",
 	"repository": "https://github.com/jobe451/vscode-lorem-whatever",
 	"engines": {
@@ -28,6 +28,7 @@
 		"onCommand:loremWhatever.loremBasel3",
 		"onCommand:loremWhatever.loremFaust",
 		"onCommand:loremWhatever.loremGenesis",
+		"onCommand:loremWhatever.loremLorem",
 		"onCommand:loremWhatever.loremDefault",
 		"onCommand:loremWhatever.loremCustom1",
 		"onCommand:loremWhatever.loremCustom2",
@@ -61,6 +62,10 @@
 			{
 				"command": "loremWhatever.loremGenesis",
 				"title": "Lorem Genesis"
+			},
+			{
+				"command": "loremWhatever.loremLorem",
+				"title": "Lorem Lorem Ipsum"
 			},
 			{
 				"command": "loremWhatever.loremCustom1",
@@ -109,6 +114,7 @@
 						"Basel 3",
 						"Faust",
 						"Genesis",
+						"Lorem Ipsum",
 						"Custom 1",
 						"Custom 2",
 						"Custom 3",
@@ -116,6 +122,17 @@
 						"Custom 5"
 					],
 					"description": "What is the default Lorem style configured for the shortcut",
+					"scope": "window"
+				},
+				"loremWhatever.loremIpsumBehaviour": {
+					"type": "string",
+					"default": "Start with classic Lorem Ipsum, then Random",
+					"enum": [
+						"Random",
+						"Start with classic Lorem Ipsum, then Random",
+						"Only classic Lorem Ipsum"
+					],
+					"description": "What kind of text should the \"Lorem Ipsum\" Generator produce?",
 					"scope": "window"
 				},
 				"loremWhatever.minWordCount": {

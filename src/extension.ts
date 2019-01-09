@@ -1,7 +1,7 @@
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
-import {LoremWhateverGenerator, PredefinedGenerators} from './lorem';
+import {LoremWhateverGenerator, PredefinedGenerators, LoremIpsumBehaviour} from './lorem';
 
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
@@ -30,6 +30,9 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.commands.registerCommand('loremWhatever.loremGenesis', () => {
 			runGenerator(PredefinedGenerators.GENESIS);
 		}),	
+		vscode.commands.registerCommand('loremWhatever.loremLorem', () => {
+			runGenerator(PredefinedGenerators.LOREM);
+		}),	
 		vscode.commands.registerCommand('loremWhatever.loremCustom1', () => {
 			runGenerator("Custom1");
 		}),	
@@ -55,6 +58,7 @@ export function activate(context: vscode.ExtensionContext) {
 			else if (defaultLoremName === "Constitution")  {generatorType = PredefinedGenerators.CONSTITUTION}
 			else if (defaultLoremName === "Basel 3")       {generatorType = PredefinedGenerators.BASEL3}
 			else if (defaultLoremName === "Buzzword")      {generatorType = PredefinedGenerators.BUZZWORD}
+			else if (defaultLoremName === "Lorem Ipsum")   {generatorType = PredefinedGenerators.LOREM}
 			else if (defaultLoremName === "Custom 1")      {generatorType = "Custom1"}
 			else if (defaultLoremName === "Custom 2")      {generatorType = "Custom2"}
 			else if (defaultLoremName === "Custom 3")      {generatorType = "Custom3"}
@@ -98,8 +102,20 @@ function runGenerator(mapType: PredefinedGenerators|string): void {
 	}
 
 	let configMinWordSize = <number>vscode.workspace.getConfiguration('loremWhatever').get("minWordCount");
+	let loremIpsumBehaviour = LoremIpsumBehaviour.START_CLASSIC;
+
+	if (mapType === PredefinedGenerators.LOREM) {
+		let loremIpsumBehaviourConfigText = vscode.workspace.getConfiguration('loremWhatever').get("loremIpsumBehaviour");
+
+		if (loremIpsumBehaviourConfigText === "Random") {
+			loremIpsumBehaviour = LoremIpsumBehaviour.RANDOM;
+		}
+		else if (loremIpsumBehaviourConfigText === "Only classic Lorem Ipsum") {
+			loremIpsumBehaviour = LoremIpsumBehaviour.ONLY_CLASSIC;
+		}
+	}
 	
-	let loremText = generator.getSentencesByMinWordCount(configMinWordSize ? configMinWordSize : defaultMinWordSize);
+	let loremText = generator.getSentencesByMinWordCount(configMinWordSize ? configMinWordSize : defaultMinWordSize, loremIpsumBehaviour);
 	insertText(loremText);
 }
 

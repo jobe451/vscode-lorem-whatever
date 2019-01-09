@@ -3,6 +3,7 @@
 # lorem-whatever README
 
 Lorem Whatever is a random filler text generator, that has build in the following styles:
+* Lorem ipsum (the traditional classic filler text)
 * Lorem Gibson (immitates William Gibson texts)
 * Lorem Buzzword (immitates text filled with tech and marketing buzzwords)
 * Lorem Constituation (immitates american constitution text)
@@ -14,6 +15,8 @@ Furthermore, you can provide your own farvorite text as arrays of single sentenc
 
 Your favorit Lorem can also be triggered by Ctrl+L.
 
+When chosing "Lorem Ipsum" you can even configure the behaviour of that generator.
+
 ![Lorem Whatever animation](https://raw.githubusercontent.com/jobe451/vscode-lorem-whatever/master/assets/lorem-whatever.gif)
 
 ## Extension Settings
@@ -22,6 +25,10 @@ You can customize in Settings:
 * minimum Number of words, a lorem text should consist of.
 * Your favorit Lorem (for beeing accessible via Ctrl+L)
 * Edit the 1-5 Custom arrays for your own base-text extracts to generate Lorems from.
+* For the Lorem Ipsum generator, choose between these behaviours
+  * Always display the pure classic lorem ipsum filler text
+  * Use fully randomized lorem-ipsum style text
+  * the combination of the above, start always classic and add random text.
 
 
 ## Contribute
