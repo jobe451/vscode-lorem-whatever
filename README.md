@@ -26,9 +26,9 @@ You can customize in Settings:
 * Your favorit Lorem (for beeing accessible via Ctrl+L)
 * Edit the 1-5 Custom arrays for your own base-text extracts to generate Lorems from.
 * For the Lorem Ipsum generator, choose between these behaviours
-  * Always display the pure classic lorem ipsum filler text
+  * Always add the pure classic lorem ipsum filler text
   * Use fully randomized lorem-ipsum style text
-  * the combination of the above, start always classic and add random text.
+  * The combination of the above, start always classic and add random text.
 
 
 ## Contribute

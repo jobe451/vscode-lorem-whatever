@@ -338,12 +338,12 @@
 	},
 	"devDependencies": {
 		"@types/mocha": "^2.2.42",
-		"@types/node": "^8.10.25",
-		"tslint": "^5.8.0",
-		"typescript": "^3.1.4",
-		"vscode": "^1.1.26"
+		"@types/node": "^8.10.54",
+		"tslint": "^5.20.0",
+		"typescript": "^3.6.3",
+		"vscode": "^1.1.36"
 	},
 	"dependencies": {
-		"markov-strings": "^2.0.1"
+		"markov-strings": "^2.1.0"
 	}
 }
