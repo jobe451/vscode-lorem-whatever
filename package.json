@@ -344,6 +344,6 @@
 		"vscode": "^1.1.36"
 	},
 	"dependencies": {
-		"markov-strings": "^2.1.0"
+		"markov-strings": "^3.0.0"
 	}
 }
